@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Final Project - Word Cloud
+# # Project - Word Cloud
 
 # For this project, you'll create a "word cloud" from a text by writing a script.  This script needs to process the text, remove punctuation, ignore case and words that do not contain all alphabets, count the frequencies, and ignore uninteresting or irrelevant words.  A dictionary is the output of the `calculate_frequencies` function.  The `wordcloud` module will then generate the image from your dictionary.
 
@@ -9,9 +9,6 @@
 # <br><br>
 # Now you will need to upload your input file here so that your script will be able to process it.  To do the upload, you will need an uploader widget.  Run the following cell to perform all the installs and imports for your word cloud script and uploader widget.  It may take a minute for all of this to run and there will be a lot of output messages. But, be patient. Once you get the following final line of output, the code is done executing. Then you can continue on with the rest of the instructions for this notebook.
 # <br><br>
-# **Enabling notebook extension fileupload/extension...**
-# <br>
-# **- Validating: <font color =green>OK</font>**
 
 # In[11]:
 
@@ -33,9 +30,6 @@ import io
 import sys
 
 
-# Whew! That was a lot. All of the installs and imports for your word cloud script and uploader widget have been completed. 
-# <br><br>
-# **IMPORTANT!** If this was your first time running the above cell containing the installs and imports, you will need save this notebook now. Then under the File menu above,  select Close and Halt. When the notebook has completely shut down, reopen it. This is the only way the necessary changes will take affect.
 # <br><br>
 # To upload your text file, run the following cell that contains all the code for a custom uploader widget. Once you run this cell, a "Browse" button should appear below it. Click this button and navigate the window to locate your saved text file.
 
@@ -96,7 +90,7 @@ def calculate_frequencies(file_contents):
     return cloud.to_array()
 
 
-# If you have done everything correctly, your word cloud image should appear after running the cell below.  Fingers crossed!
+# If you have done everything correctly, your word cloud image should appear after running the cell below. 
 
 # In[35]:
 
